@@ -1,0 +1,23 @@
+# OASIS_START
+# DO NOT EDIT (digest: c7051227eeae6377e34eae102e07c8d5)
+# Ignore VCS directories, you can use the same kind of rule outside
+# OASIS_START/STOP if you want to exclude directories that contains
+# useless stuff for the build process
+true: annot, bin_annot
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Library lwt_named_threads
+"lib/lwt_named_threads.cmxs": use_lwt_named_threads
+<lib/*.ml{,i,y}>: pkg_devkit
+<lib/*.ml{,i,y}>: pkg_lwt
+<lib/*.ml{,i,y}>: pkg_objsize
+<lib/*.ml{,i,y}>: pkg_threads
+# OASIS_STOP

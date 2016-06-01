@@ -1,0 +1,15 @@
+OASISFormat: 0.4
+Name:        lwt_named_threads
+Version:     0.1
+Synopsis:    Library to attach names and logs to Lwt threads (for
+  debug/trace/objsize)
+Authors:     Dmitry Grebeniuk
+License:     LGPL-2.1 with OCaml linking exception
+Plugins:     META (0.4), StdFiles (0.4), DevFiles (0.4)
+BuildDepends: threads, lwt, objsize, devkit
+
+Library lwt_named_threads
+  Path:       lib
+  BuildTools: ocamlbuild
+  Modules:    Lwt_mark
+  

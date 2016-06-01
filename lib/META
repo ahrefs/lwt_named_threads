@@ -1,0 +1,13 @@
+# OASIS_START
+# DO NOT EDIT (digest: dfa7f4a915a7d11c5038bdab64390e3e)
+version = "0.1"
+description =
+"Library to attach names and logs to Lwt threads (for debug/trace/objsize)"
+requires = "threads lwt objsize devkit"
+archive(byte) = "lwt_named_threads.cma"
+archive(byte, plugin) = "lwt_named_threads.cma"
+archive(native) = "lwt_named_threads.cmxa"
+archive(native, plugin) = "lwt_named_threads.cmxs"
+exists_if = "lwt_named_threads.cma"
+# OASIS_STOP
+
