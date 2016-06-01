@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 2f5a297e9f39345ef3183d58befb769b) *)
+(* DO NOT EDIT (digest: b6f7268352d7036ec6062ae586b8b667) *)
 
 This is the INSTALL file for the lwt_named_threads distribution.
 
@@ -14,8 +14,8 @@ In order to compile this package, you will need:
 * ocaml
 * findlib
 * lwt
+* extlib
 * objsize
-* devkit
 
 Installing
 ==========

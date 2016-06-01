@@ -6,7 +6,7 @@ Synopsis:    Library to attach names and logs to Lwt threads (for
 Authors:     Dmitry Grebeniuk
 License:     LGPL-2.1 with OCaml linking exception
 Plugins:     META (0.4), StdFiles (0.4), DevFiles (0.4)
-BuildDepends: threads, lwt, objsize, devkit
+BuildDepends: threads, lwt, extlib, objsize
 
 Library lwt_named_threads
   Path:       lib
